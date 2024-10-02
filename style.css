@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .left h1 {
+
+    margin: 0;
+}
+
+header .right a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* Center align the boxes */
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box p {
+    margin-left: auto;
+}
+
+.box1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 p {
+    margin-left: auto;
+}
+
+.box2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box2 p {
+    margin-left: auto;
+}
